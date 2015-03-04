@@ -15,8 +15,8 @@ use Ogone\ShaComposer\ShaComposer;
 
 class EcommercePaymentRequest extends AbstractPaymentRequest {
 
-    const TEST = "https://secure.ogone.com/ncol/test/orderstandard_utf8.asp";
-    const PRODUCTION = "https://secure.ogone.com/ncol/prod/orderstandard_utf8.asp";
+    const TEST = "https://internetkassa.abnamro.nl/ncol/test/orderstandard.asp";
+    const PRODUCTION = "https://internetkassa.abnamro.nl/ncol/prod/orderstandard.asp";
 
     public function __construct(ShaComposer $shaComposer)
     {
