@@ -16,8 +16,8 @@ use InvalidArgumentException;
 
 class DirectLinkPaymentRequest extends AbstractPaymentRequest {
 
-    const TEST = "https://secure.ogone.com/ncol/test/orderdirect.asp";
-    const PRODUCTION = "https://secure.ogone.com/ncol/prod/orderdirect.asp";
+    const TEST = "https://internetkassa.abnamro.nl/ncol/test/orderstandard.asp";
+    const PRODUCTION = "https://internetkassa.abnamro.nl/ncol/prod/orderstandard.asp";
 
     public function __construct(ShaComposer $shaComposer)
     {
